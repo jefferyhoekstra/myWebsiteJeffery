@@ -85,8 +85,8 @@ html {
 
 
     border: 3px solid white;
-    max-width: 50px;
-    min-width: fit-content;
+    max-width: 200px;
+    min-width: 200px;
 
     list-style-type: none;
     text-align: center;
@@ -114,19 +114,83 @@ html {
     border-color: #389fff;
     transition: 0.5s ease;
 }
-
-
-
-
-
 footer {
     padding: 1em 0em;
     text-align: center;
     color: white;
     font-size: 1.2em;
     font-weight: bold;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+/* FEATURED PROJECTS */
+
+.featured {
+    text-align: center;
+
+    gap: 1em;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+}
+.featured img {
+        image-rendering: pixelated;
+        image-rendering: crisp-edges; /* For better compatibility */
+}
+.featured h1 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1em 0em;
+}
+
+.featured ul {
+    list-style-type: none;
+    
+
+}
+
+.featured ul li {
+    padding: 1em 0em;
+    max-width: 300px;
+    border: 3px solid white;
+    background-color: #fc6c53;
+
+
+}
+.featured ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+
+
+
+/* MOBILE VIEW */
+@media screen and (max-width: 768px) {
+    .leftnav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .featured {
+        flex-direction: column;
+        align-items: center;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+
 }
