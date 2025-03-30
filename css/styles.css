@@ -54,6 +54,9 @@ header {
     left: 0.2em; /* Align to the left of the page */
 }
 
+.toolbar ul {
+    list-style-type: none;
+}
 /* HOVER   */
 
 .container ul li a:hover {
