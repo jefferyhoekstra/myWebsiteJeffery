@@ -45,12 +45,13 @@ header {
     transition: 0.5s ease;
 }
 
+/* ICON */
 .toolbar {
     background-color: none;
     border: none;
     position: absolute; /* Bind the toolbar to the left */
     top: 0.3em; /* Align to the top of the page */
-    left: 0.7em; /* Align to the left of the page */
+    left: 0.2em; /* Align to the left of the page */
 }
 
 /* HOVER   */
