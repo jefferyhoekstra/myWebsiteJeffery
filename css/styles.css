@@ -9,9 +9,6 @@ html {
     background-position: center;
 }
 
-header {
-
-}
 
 
 .container {
@@ -42,7 +39,7 @@ header {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    transition: 0.5s ease;
+
 }
 
 /* ICON */
@@ -109,12 +106,13 @@ header {
     color: white;
     font-size: 1.5em;
     font-weight: bold;
-    transition: 0.5s ease;
+
 }
 
 .leftnav ul li a:hover {
     background-color: #389fff;
     border-color: #389fff;
+    transition: 0.5s ease;
 }
 
 
