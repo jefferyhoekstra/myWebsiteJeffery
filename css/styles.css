@@ -1,0 +1,130 @@
+* {
+    font-family: sans-serif;
+
+}
+
+html {
+    background-image: linear-gradient(rgba(0, 0, 5, 0.7), rgba(0, 0, 20, 0.7)), url(../images/bg.jpg);
+    background-size: auto;
+    background-position: center;
+}
+
+header {
+
+}
+
+
+.container {
+    background-color: #fc6c53;
+    padding-top: 0;
+    margin: 0,0;
+    border: 3px solid rgb(255, 255, 255);
+    border-left: none;
+    border-right: none;
+
+}
+
+.container ul {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.container ul li a {
+    background-color: #fc6c53;
+    border: 16px solid #fc6c53;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+.toolbar {
+    background-color: none;
+    border: none;
+    position: absolute; /* Bind the toolbar to the left */
+    top: 0.3em; /* Align to the top of the page */
+    left: 0.7em; /* Align to the left of the page */
+}
+
+/* HOVER   */
+
+.container ul li a:hover {
+    background-color: #ff4727;
+    border-color: #ff4727;
+}
+
+.container ul li a.active {
+    background-color: #ff4727;
+    border-color: #ff4727;
+}
+
+
+/* LEFT NAVBAR */
+
+.leftnav {
+    margin: 0;
+    padding: 0;;
+
+
+}
+
+.leftnav ul {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+
+
+    border: 3px solid white;
+    max-width: 50px;
+    min-width: fit-content;
+
+    list-style-type: none;
+    text-align: center;
+    padding: 0 0 0 0;
+
+}
+
+.leftnav ul li {
+
+    padding: 1em 0em;
+    max-width: 300px;
+}
+
+
+.leftnav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+.leftnav ul li a:hover {
+    background-color: #389fff;
+    border-color: #389fff;
+}
+
+
+
+
+
+footer {
+    padding: 1em 0em;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
