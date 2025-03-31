@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #ff4727;
-    --secondary-color: #ff2600;
+    --primary-color: #e21d0e;
+    --secondary-color: #ff2819;
     --text-color: white;
     --background-color: #000000a4;
 }
@@ -139,6 +139,7 @@ body main .welcomeText h2 {
     font-size: 3.0em;
     font-weight:800;
     text-align: center;
+    text-shadow: 0 0 20px #000000, 0 0 40px #000000, 0 0 80px #000000, 0 0 160px #000000, 0 0 320px #000000;
 }
 
 
@@ -159,11 +160,13 @@ body main .welcomeText h2 {
     gap: 1em;
     margin: 0 auto;
     padding: 0 0 0 0;
+    
 }
 
 .projects ul {
     list-style-type: none;
     padding: 1em 0em;
+        text-shadow: 100px 100px 200px rgba(0, 0, 5, 100)
 }
 
 .projects ul li a {
@@ -171,6 +174,8 @@ body main .welcomeText h2 {
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
+
+
 }
 
 .projects p {
