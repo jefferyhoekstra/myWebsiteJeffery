@@ -173,6 +173,36 @@ main {
 
 
 
+/* COLLEGE PROJECTS PAGE */
+
+.projects {
+    text-align: center;
+    gap: 1em;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+}
+
+.projects ul li {
+    list-style-type: none;
+    padding: 1em 0em;
+}
+
+.projects a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.projects a:hover {
+    background-color: #389fff;
+    border-color: #389fff;
+
+    transform: scale(50%);
+    transition: 0.5s ease;
+}
+
+
 
 
 /* MOBILE VIEW */
