@@ -83,7 +83,8 @@ main {
     max-width: 200px;
     min-width: 200px;
     border: 3px solid white;
-    margin: 3.5em;
+    margin-top: 3em;
+    margin-bottom: 2em;
     padding: 0 0 0 0;
     background-blend-mode: multiply;
     background-color: #000000a4;
@@ -93,7 +94,7 @@ main {
 .leftnav ul {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1.75em;
     justify-content: center;
 
 
