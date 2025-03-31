@@ -9,7 +9,14 @@ html {
     background-position: center;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
 
+    justify-content: space-between;
+    padding: 0 0 0 0;
+    margin: 0 auto;
+}
 
 .container {
     background-color: #fc6c53;
@@ -126,50 +133,21 @@ footer {
     right: 0;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-}
+
 /* FEATURED PROJECTS */
 
-.featured {
+.welcomeText {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1em 0em;
     text-align: center;
-
-    gap: 1em;
     margin: 0 auto;
-    padding: 0 0 0 0;
-}
-.featured img {
-        image-rendering: pixelated;
-        image-rendering: crisp-edges; /* For better compatibility */
-}
-.featured h1 {
-    color: white;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 1em 0em;
-}
-
-.featured ul {
-    list-style-type: none;
+    max-width: 600px;
     
-
 }
 
-.featured ul li {
-    padding: 1em 0em;
-    max-width: 300px;
-    border: 3px solid white;
-    background-color: #fc6c53;
 
-
-}
-.featured ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5em;
-    font-weight: bold;
-}
 
 
 
@@ -209,13 +187,10 @@ main {
 
 
 
+
+
 /* MOBILE VIEW */
 @media screen and (max-width: 768px) {
-    .leftnav {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
 
     .featured {
         flex-direction: column;
@@ -224,9 +199,13 @@ main {
     main {
         display: flex;
         flex-direction: column;
-    }
-    .featured ul {
-        algin: center;
-    }
+        align-items: center;
+        gap: 1em;
 
+    }
+    .welcomeText {
+        margin: 0 auto;
+        text-align: center;
+        
+    }
 }
