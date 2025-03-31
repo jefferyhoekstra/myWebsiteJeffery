@@ -218,6 +218,14 @@ body main .welcomeText h2 {
     font-weight: bolder;
 }
 
+.musicList h1 {
+    color: white;
+    font-size: 2.0em;
+    font-weight:800;
+    text-align: center;
+    text-shadow: 0 0 2px #000000, 0 0 4px #000000, 0 0 6px #000000, 0 0 8px #000000, 0 0 9px #000000, 0 0 10px #000000;
+}
+
 .musicList ul {
     list-style-type: none;
     padding: 1em 0em;
@@ -231,6 +239,7 @@ body main .welcomeText h2 {
     font-weight: bold;
     box-shadow: inset 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 20px #000000, 0 0 40px #000000, 0 0 40px #000000;
     background-color: #0000006c;
+    border-radius: 1em;
 }
 
 
