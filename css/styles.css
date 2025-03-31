@@ -166,7 +166,6 @@ body main .welcomeText h2 {
 .projects ul {
     list-style-type: none;
     padding: 1em 0em;
-        text-shadow: 100px 100px 200px rgba(0, 0, 5, 100)
 }
 
 .projects ul li a {
