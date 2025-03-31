@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css?v=3.4">
+    <link rel="stylesheet" href="css/styles.css?v=3.5">
     <title>Jeffery's Site</title>
 </head>
 <header>
@@ -28,14 +28,7 @@
 <main>
 
     <body>
-        <div class="leftnav">
-            <ul>
-                <li><a href="#">My Apps</a></li>
-                <li><a href="/blogs.html">My Books</a></li>
-                <li><a href="/myMusic.html">My Music</a></li>
-                <li><a href="college.html">Course Projects</a></li>
-            </ul>
-        </div>
+        <div class="leftnav"></div>
         <div class="welcomeText">
             <h2>Welcome to Jeffery's official site!</h2>
 
@@ -52,7 +45,28 @@
     </body>
 </main>
 <footer>
-    <p>&copy; 2025 Jeffery Hoekstra</p>
+
 </footer>
+<div id="footer"></div>
+
+<script>
+    //LOAD LEFT NAV
+    fetch('/js/navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.querySelector('.leftnav').innerHTML = data;
+        })
+        .catch(error => console.error('Error loading navbar:', error));
+
+
+
+    // LOAD FOOTER
+    fetch('/js/footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer').innerHTML = data;
+        })
+        .catch(error => console.error('Error loading footer:', error));
+</script>
 
 </html>

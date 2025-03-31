@@ -138,6 +138,17 @@ body main {
 
 }
 
+.leftnav ul img {
+    width: 3.2em;
+    height: 3.2em;
+    margin-right: 1em;
+    vertical-align: -60%;
+}
+
+/* -------------------------------- */
+
+
+
 .welcomeText {
     align-content: center;
     margin: 0 auto;
@@ -157,9 +168,7 @@ body main .welcomeText h2 {
 
 /* COLLAPSIBLE TOOLBAR */
 
-.toolbar a:hover {
 
-}
 
 
 
@@ -445,10 +454,15 @@ footer {
     padding: 0em 0em;
     text-align: center;
     color: white;
-    font-size: 0.7em;
+    font-size: 0.6em;
     font-weight: normal;
     position: fixed;
-    bottom: 0;
+    bottom: 1em;
     left: 0;
     right: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
 }

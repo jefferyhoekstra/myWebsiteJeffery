@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css?v=3.4">
+    <link rel="stylesheet" href="/css/styles.css?v=3.5">
     <title>Jeffery's Site</title>
 </head>
 <header>
@@ -47,7 +47,15 @@
     </body>
 </main>
 <footer>
-    <p>&copy; 2025 Jeffery Hoekstra</p>
 </footer>
+<div id="footer"></div>
+<script>
+    fetch('/js/footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer').innerHTML = data;
+        })
+        .catch(error => console.error('Error loading footer:', error));
+</script>
 
 </html>
