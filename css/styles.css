@@ -162,7 +162,7 @@ footer {
     padding: 1em 0em;
 }
 
-.projects a{
+.projects ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.5em;
@@ -200,7 +200,7 @@ footer {
         gap: 1em;
 
     }
-    .welcomeText {
+    .welcomeText h2 {
         margin: 0 auto;
         text-align: center;
         
