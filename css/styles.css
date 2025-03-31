@@ -6,7 +6,8 @@
 }
 
 * {
-    font-family: sans-serif;
+    font-family: "Jersey 10", sans-serif;
+    font-optical-sizing: auto;
 }
 
 html {
@@ -51,8 +52,8 @@ body main {
 .container ul li a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
-    font-size: x-large;
+    font-weight: 400;
+    font-size: 2.5em;
 
 }
 
@@ -63,6 +64,13 @@ body main {
     position: absolute; /* Bind the toolbar to the left */
     top: 0.5em; /* Align to the top of the page */
     left: 3px; /* Align to the left of the page */
+}
+
+.toolbar img {
+    width: 4.2em;
+    height: 4.2em;
+    margin-right: 1em;
+    vertical-align: -60%;
 }
 
 .toolbar ul {
@@ -123,8 +131,8 @@ body main {
 .leftnav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 2.3em;
+    font-weight: normal;
 
 
 }
@@ -156,8 +164,8 @@ body main {
 
 body main .welcomeText h2 {
     color: white;
-    font-size: 3.0em;
-    font-weight:800;
+    font-size: 4.5em;
+    font-weight:500;
     text-align: center;
     text-shadow: 0 0 2px #000000, 0 0 4px #000000, 0 0 6px #000000, 0 0 8px #000000, 0 0 9px #000000, 0 0 10px #000000;
 
@@ -192,8 +200,8 @@ body main .welcomeText h2 {
 .projects ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 3em;
+    font-weight: normal;
 
 
 }
@@ -232,8 +240,8 @@ body main .welcomeText h2 {
 
 .musicList h1 {
     color: white;
-    font-size: 2.0em;
-    font-weight:800;
+    font-size: 3.5em;
+    font-weight:500;
     text-align: center;
     text-shadow: 0 0 2px #000000, 0 0 4px #000000, 0 0 6px #000000, 0 0 8px #000000, 0 0 9px #000000, 0 0 10px #000000;
 }
@@ -252,8 +260,8 @@ body main .welcomeText h2 {
     
     color: white;
     text-decoration: none;
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 2.5em;
+    font-weight: normal;
     box-shadow: inset 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 20px #000000, 0 0 40px #000000, 0 0 40px #000000;
     background-color: #0000006c;
     border-radius: 1em;
@@ -272,13 +280,13 @@ body main .welcomeText h2 {
     padding: 2.5em 0 0 0;
 
     color: white;
-    font-weight: bolder;
+    font-weight: normal;
 }
 
 .blogList h1 {
     color: white;
-    font-size: 2.0em;
-    font-weight:800;
+    font-size: 3.5em;
+    font-weight:500;
     text-align: center;
     text-shadow: 0 0 2px #000000, 0 0 4px #000000, 0 0 6px #000000, 0 0 8px #000000, 0 0 9px #000000, 0 0 10px #000000;
 }
@@ -389,9 +397,13 @@ body main .welcomeText h2 {
     padding: 2.5em 0 0 0;
 
     color: white;
-    font-weight: bolder;
-    font-size: 2em;
+    font-weight: 400;
+    font-size: 3.5em;
     max-width: fit-content;
+}
+
+.contactMe h1 {
+    font-weight: normal;
 }
 
 /* MOBILE VIEW */
@@ -418,7 +430,7 @@ body main .welcomeText h2 {
         
     }
     .container ul li a {
-        font-size: large;
+        font-size: 1.7em;
     }
 
     .blogWriting {
@@ -446,7 +458,13 @@ body main .welcomeText h2 {
     
 }
 .contactMe {
-    font-size: 1.5em;
+    font-size: 2.5em;
+}
+.toolbar img {
+    width: 3.5em;
+    height: 3.5em;
+    margin-right: 1em;
+    vertical-align: -60%;
 }
 }
 
