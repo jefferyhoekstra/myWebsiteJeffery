@@ -187,11 +187,15 @@ main {
     padding: 1em 0em;
 }
 
-.projects a {
+.projects a{
     color: white;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.projects p {
+    color: white;
 }
 
 .projects a:hover {
