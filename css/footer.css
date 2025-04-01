@@ -1,0 +1,19 @@
+/* preliminary */
+
+@import url('main.css');
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    padding: 10px 0;
+}
+
+.footer a {
+    color: white;
+}

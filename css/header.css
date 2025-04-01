@@ -1,0 +1,49 @@
+/* PRELIMINARY */
+@import url('main.css');
+
+
+header {
+    background-color: var(--navbar-color);
+    border: 3px solid white;
+    border-left: none;
+    border-right: none;
+    margin-top: .5em;
+}
+
+/* navigation bar */
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: var(--desktop-primary-font-size);
+
+    border-radius: 15px;
+    padding: 0px 50px;
+    transition: ease-in-out 0.3s, transform 0.3s;
+}
+
+.nav-item:hover {
+    background-color: var(--navbar-hover-color);
+}
+
+/* drop menu projects */
+
+
+@media screen and (max-width: 968px) {
+    .navbar ul {
+        align-items: center;
+    }
+
+    .nav-item {
+        padding: 10px 0px;
+        font-size: 2.5em;
+    }
+    
+}
