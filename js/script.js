@@ -14,4 +14,5 @@ document.addEventListener("DOMContentLoaded", function () {
     loadComponents(".navbar", "./components/header.html");
     loadComponents("footer", "./components/footer.html");
     loadComponents(".projectsNav", "./components/projectsNav.html");
+    loadComponents(".content", "./components/homePage.html");
 });

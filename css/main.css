@@ -3,6 +3,7 @@
 @import url('header.css');
 @import url('footer.css');
 @import url('projectsNav.css');
+@import url('homePage.css');
 
 :root {
     --desktop-primary-font-size: 3.5em;
@@ -19,6 +20,13 @@
     font-optical-sizing: auto;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+
+    transition: all 0.3s ease-in-out;
+}
+
 /* BG image */
 
 html {
@@ -32,5 +40,9 @@ html {
     html {
         background-size: 100em;
         background-position: center 20%;
+    }
+
+    main {
+        flex-direction: column;
     }
 }

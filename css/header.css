@@ -23,6 +23,7 @@ header {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: var(--desktop-primary-font-size);
+    text-shadow: 1px 1px 12px black;
 
     border-radius: 15px;
     padding: 0px 50px;
@@ -36,7 +37,7 @@ header {
 /* drop menu projects */
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 890px) {
     .navbar ul {
         align-items: center;
     }

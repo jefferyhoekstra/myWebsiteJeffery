@@ -1,0 +1,21 @@
+/* preliminary */
+
+.content {
+    text-align: center;
+    align-self: center;
+    width: 100%;
+}
+
+.content h1 {
+    color:white;
+    font-size: 7em;
+    margin: 0;
+    padding: 10px;
+    text-shadow: 2px 2px 4px black;
+}
+
+@media screen and (max-width: 890px) {
+    .content h1 {
+        font-size: 4em;
+    }
+}
